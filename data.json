@@ -1,0 +1,136 @@
+{
+    "demographics": {
+        "Education": [
+            "school",
+            "field of study"
+        ],
+        "life events": [
+            "Long-distance relationship",
+            "New job",
+            "New relationship",
+            "Newly engaged (1 year)",
+            "Newly engaged (3 months)",
+            "Newly-engaged (6 months)",
+            "Newlywed (1 year)",
+            "Newlywed (3 months)",
+            "Newlywed (6 months)",
+            "Recently moved",
+            "Friends of Men with a Birthday in 0-7 days",
+            "Friends of Men with a Birthday in 7-30 days",
+            "Friends of Recently Moved",
+            "Friends of Women with a Birthday in 0-7 days",
+            "Friends of Women with a Birthday in 7-30 days",
+            "Friends of people with birthdays in a month",
+            "Friends of people with birthdays in a week",
+            "Upcoming birthday",
+            "Anniversary within 30 days",
+            "Anniversary within 31-60 Days"
+        ],
+        "parents": [
+            "Parents (All)",
+            "Parents (up to 12 months)",
+            "Parents with toddlers (01-02 years)",
+            "Parents with preschoolers (03-05 years)",
+            "Parents with early school-age children (06-08 years)",
+            "Parents with preteens (09-12 years)",
+            "Parents with teenagers (13-17 years)",
+            "Parents with adult children (18-26 years)"
+        ],
+        "relationship status": [
+            "Civil Union",
+            "Complicated",
+            "Divorced",
+            "Domestic Partnership",
+            "Engaged",
+            "In a relationship",
+            "Married",
+            "Open Relationship",
+            "Separated",
+            "Single",
+            "Unspecified",
+            "Widowed"
+        ],
+        "work": [
+            "employers",
+            "job title"
+        ]
+    },
+    "interests": {
+        "business and industry": [
+            "Advertising (marketing)",
+            "Agriculture (industry)",
+            "Architecture (architecture)",
+            "Aviation (air travel)",
+            "Business (business & finance)",
+            "Construction (industry)",
+            "Economics (economics)",
+            "Engineering (science)",
+            "Entrepreneurship (business & finance)",
+            "Higher education (education)",
+            "Management (business & finance)",
+            "Marketing (business & finance)",
+            "Digital marketing (marketing)",
+            "Email marketing (marketing)",
+            "Online advertising (marketing)",
+            "Search engine optimization (software)",
+            "Social media (online media)",
+            "Social media marketing (marketing)",
+            "Web design (websites)",
+            "Web development (websites)",
+            "Web hosting (computing)",
+            "Credit cards (credit & lending)",
+            "Insurance (business & finance)",
+            "Investment (business & finance)",
+            "Mortgage loans (banking)",
+            "Real estate (industry)",
+            "Retail (industry)",
+            "Sales (business & finance)",
+            "Science (science)",
+            "Small business (business & finance)"
+        ],
+        "entertainment (leisure)": [
+            "Action games (video games)",
+            "Board games (games)",
+            "Browser games (video games)",
+            "Card games (games)",
+            "Casino games (gambling)",
+            "First-person shooter games (video games)",
+            "Gambling (gambling)",
+            "Massively multiplayer online games (video games)",
+            "Massively multiplayer online role-playing games (video games)",
+            "Online games (video games)",
+            "Online poker (gambling)",
+            "Puzzle video games (video games)",
+            "Racing games (video game)",
+            "Role-playing games (video games)",
+            "Simulation games (video games)",
+            "Sports games (video games)",
+            "Strategy games (games)",
+            "Video games (gaming)",
+            "Word games (games)"
+        ],
+        "family and relationships": [
+            "Family (social concept)",
+            "Fatherhood (children & parenting)",
+            "Friendship (relationships)",
+            "Marriage (weddings)",
+            "Motherhood (children & parenting)",
+            "Parenting (children & parenting)",
+            "Weddings (weddings)"
+        ],
+        "fitness and wellness (fitness)": [
+            "Bodybuilding (sport)",
+            "Physical exercise (fitness)",
+            "Physical fitness (fitness)",
+            "Running (sport)",
+            "Weight training (weightlifting)",
+            "Yoga (fitness)"
+        ]
+    },
+    "behaviors": {
+        "anniversary": "Anniversary (within 61-90 days)",
+        "mobile device user": "all mobile devices by operating system",
+        "digital activities": "all creators",
+        "digital activitiesTeam": "music creators"
+    }
+}
