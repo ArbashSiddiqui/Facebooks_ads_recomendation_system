@@ -1,4 +1,5 @@
 import os
+import json  # Import the json module
 from langchain_community.chat_models import ChatOpenAI
 from langchain_openai import ChatOpenAI as OpenAI
 from langchain_core.prompts import PromptTemplate
@@ -86,9 +87,31 @@ def main():
         print("\nBehaviors:")
         print(behaviors_output)
         
+        # Convert the outputs into dictionaries for JSON conversion
+        interests_dict = {"Interests": interests_output}
+        demographics_dict = {"Demographics": demographics_output}
+        behaviors_dict = {"Behaviors": behaviors_output}
+
+        # Combine dictionaries into one dictionary
+        combined_dict = {
+            "Interests": interests_dict["Interests"],
+            "Demographics": demographics_dict["Demographics"],
+            "Behaviors": behaviors_dict["Behaviors"]
+        }
+
+        # Convert combined dictionary to JSON
+        combined_json = json.dumps(combined_dict, indent=4)
+
+        # Save the JSON to a file
+        with open('facebook_ads_recommendations.json', 'w') as json_file:
+            json_file.write(combined_json)
+
+        # Print the JSON outputs
+        print("\nCombined JSON saved to 'facebook_ads_recommendations.json':")
+        print(combined_json)
         
         # Return each section separately
-        return interests_output, demographics_output, behaviors_output , recommendations
+        return interests_output, demographics_output, behaviors_output, recommendations
         
     except ValueError:
         print("Invalid input, please ensure all inputs are correctly formatted.")
