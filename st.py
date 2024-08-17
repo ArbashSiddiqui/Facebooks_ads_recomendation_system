@@ -6,7 +6,7 @@ from langchain.chains import LLMChain
 from prompts import Ad_prompt
 
 # Initialize the OpenAI model with specified parameters
-OPENAI_API_KEY = 'API_KEY'
+OPENAI_API_KEY = 'API KEY'
 
 llm = OpenAI(model="gpt-4o-mini", temperature=0, api_key=OPENAI_API_KEY)
 
